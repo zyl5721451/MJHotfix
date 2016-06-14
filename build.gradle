@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+//apply from: '../bintray.gradle'
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+//    compile 'com.android.tools.build:gradle:2.1.0'
+}
+
+//repositories {
+//    mavenCentral()
+//}
+
+group='com.moji.hotfix.gradle.plugin'
+version='1.0.0'
+
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: uri('../MJHotfixGradle'))
+//        }
+//    }
+//}
